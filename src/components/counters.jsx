@@ -12,7 +12,7 @@ class Counters extends Component {
     } = this.props;
     return (
       <React.Fragment>
-        <button onClick={onReset} className="btn btn-primary m-2">
+        <button onClick={onReset} className="btn btn-primary">
           Reset
         </button>
         {counters.map(counter => (
